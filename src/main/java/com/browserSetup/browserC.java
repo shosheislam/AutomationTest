@@ -12,7 +12,7 @@ public class browserC {
        // firefox_launch();
        // firefox_close();
         chrome_launch();
-        chrome_close();
+        //chrome_close();
        // edge_launch();
        // edge_close();
 
