@@ -10,6 +10,7 @@ public class WebElementLocators extends TestBase {
         openUrl("https://demo.opencart.com/");
         OpenRegisterPage();
         TC_Register();
+        chrome_close();
     }
     public static void OpenRegisterPage(){
         WebElement MyAccount = driver.findElement(By.linkText("My Account"));
